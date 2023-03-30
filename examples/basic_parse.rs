@@ -7,5 +7,6 @@ fn main() {
     let module = parser::parse_file_as_module(&fm, parser::Syntax::Es(parser::EsConfig {
         ..Default::default()
     }), ast::EsVersion::latest(), None, &mut vec![]).unwrap();
+
     println!("module: {module:#?}");
 }

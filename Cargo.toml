@@ -6,4 +6,4 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-swc_core = { version = "0.72.3", features = ["ecma_parser", "ecma_ast", "common"]}
+swc_core = { version = "0.72.3", features = ["ecma_parser", "ecma_ast", "ecma_codegen", "common", "ecma_visit"]}
